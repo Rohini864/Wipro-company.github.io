@@ -1,0 +1,111 @@
+*{
+    margin: 5;
+    padding: 5;
+    font-family: verdana;
+}
+body{
+    background: #ccc;
+}
+.head{
+    width: 100%;
+    padding: 0px 1px;
+    line-height: 100%;
+
+}
+.head h1{
+        line-height:80px;
+         font-size:30px;
+         color:orange; 
+         background:white;       
+}
+.head .nav{
+    background:purple;
+    padding:8px 0px;
+    text-align: center;
+    line-height: 8px;
+    
+    
+}
+.nav ul{
+     float:center;
+    list-style-type: none;
+    margin:1px;
+}
+.nav ul li{
+    display: inline-block;
+    margin:10px;
+}    
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid rgb(207, 191, 191);
+
+}
+.nav ul li a:hover{
+    background-color:"#fff";
+color:#000;
+}
+.nav ul li.active a{
+    background-color:black;
+color:#fff;
+}
+.head .logo {
+  float:left; 
+    height:60px;
+}
+.box{
+    width:100%;
+    margin:60px auto;
+    padding: 5px; 
+    font-size:16px;
+    background-image: url(rr.png);
+}
+.box img{
+    height:180px;
+    width:200px;
+}
+.box .content{
+    font-family: 'Courier New', Courier, monospace;
+
+}e
+.box .img{
+    width:300px;
+    height:200px;
+}
+.box .picture{
+    width:250px;
+    height:250px
+}
+.box footer .main-footer{
+    background: purple;
+    height:535px;
+    width:100%;
+    
+}
+.box .main-footer .first-section{
+    width:33%;
+    float:left;
+
+}
+.box .main-footer .second-section{
+ width:33%;
+ float:left;
+ text-decoration: none;
+    
+}
+.boox .main-footer.third-section{
+    width:33%;
+    float:left;
+    color: white;
+
+}
+.box .main-footer .third-section .imglogo
+{
+    height:50px;
+    width:50px;
+}
+    
